@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+.slider{
+    width: 750px;
+    height: 520px;
+    background: url(./Pics/IMG2.jpg);
+    margin: 100px auto;
+    animation: slide 20s infinite;
+}
+@keyframes slide{
+    25%{
+    background: url(./Pics/IMG2.jpg); 
+    }
+    50%{
+    background: url(./Pics/IMG3.jpg); 
+    }
+    75%{
+    background: url(./Pics/IMG13.jpg); 
+    }
+    100%{
+    background: url(./Pics/IMG17.jpg); 
+    }
+}
